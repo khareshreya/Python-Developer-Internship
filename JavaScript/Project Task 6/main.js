@@ -12,9 +12,9 @@ var fahrenheit=celsius * (9/5) + 32;
 //rounding off fahrenheit value
 fahrenheit= Math.floor(fahrenheit);
 
-console.log("The Temperature is",fahrenheit,"degrees Fahrenheit.");
+console.log(`The Temperature is ${fahrenheit} degrees Fahrenheit.`);
 
 var newton=celsius*(33/100);
 newton= Math.floor(newton);
-console.log("The Temperature is",newton,"degrees Newtion.");
+console.log(`The Temperature is ${newton} degrees Newtion.`);
 }
