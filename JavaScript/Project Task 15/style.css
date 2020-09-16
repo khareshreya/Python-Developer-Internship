@@ -91,7 +91,7 @@ font-size: 2.5rem;
   margin-bottom: 7rem;
 }
 
-.location img {
+#location {
 width: 100%;
 }
 
@@ -99,7 +99,9 @@ footer {
   background-color: OrangeRed;
   padding: 0 1rem;
 }
-
+footer .nav{
+  display: flex;
+}
 footer .container {
   display: flex;
   align-items: center;
@@ -123,12 +125,12 @@ footer .container {
   .rating h1{
    font-size: 2rem;
   }
-  .comtainergallery img{
+  .containergallery img{
     margin: 0;
     width: 100%;
 
   }
- footer .nav{
+ footer nav{
 display: none;
  }
 }
