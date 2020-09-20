@@ -1,4 +1,4 @@
-let mod = require( "./messageMixer.js" );
+const mod = require( './messageMixer' );
 function displayMessage() {
   console.log(mod.countCharacter("What is the color of the sky?", "t"));
   console.log(mod.capitalizeFirstCharacterOfWords("What is the color of the sky?"));

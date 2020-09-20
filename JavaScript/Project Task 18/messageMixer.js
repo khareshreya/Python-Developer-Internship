@@ -95,8 +95,4 @@ var messageMixer={
   }
 
 }
-exports.messageMixer= messageMixer;
-
-
-
-displayMessage();
+module.exports= messageMixer;
